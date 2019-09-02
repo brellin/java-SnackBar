@@ -74,7 +74,7 @@ public class Snack {
 
     public String toString(String vendingMachineName) {
         String rtnStr = "Name: " + name + "\n" + "Vending Machine Name: " + vendingMachineName + "\n" + "Quantity: "
-                + quantity + "\n" + "Total cost of all " + name + "s : " + total(quantity) + "\n";
+                + quantity + "\n" + "Total cost of all " + name + "s: " + total(quantity) + "\n";
         return rtnStr;
     }
 
